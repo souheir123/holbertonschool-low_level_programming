@@ -2,7 +2,8 @@
 #define MAIN_H
 
 int _putchar(char c);
-void print_line(int n);
-/* autres prototypes ici */
+void print_diagonal(int n);  /* 👈 AJOUTE CECI SI ABSENT */
+
+/* autres prototypes... */
 
 #endif /* MAIN_H */
