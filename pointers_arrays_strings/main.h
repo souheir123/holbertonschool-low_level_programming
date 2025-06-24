@@ -3,6 +3,7 @@
 
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
-/* Ajoute d’autres prototypes ici si nécessaire */
+int _strlen(char *s);
+/* Ajoute les autres prototypes nécessaires */
 
 #endif
