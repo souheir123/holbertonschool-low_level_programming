@@ -6,16 +6,17 @@
  */
 void rev_string(char *s)
 {
-	int i = 0, j = 0;
+	int i = 0;
+	int j = 0;
 	char temp;
 
-	/* Find length of string */
+	/* Trouver la longueur de la chaîne */
 	while (s[i] != '\0')
-		i--;
+		i++;
 
-	i--;
+	i--; /* i devient l'index du dernier caractère */
 
-	/* Swap characters from both ends */
+	/* Inverser la chaîne */
 	while (j < i)
 	{
 		temp = s[j];
