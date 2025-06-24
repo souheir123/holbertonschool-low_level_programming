@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c);
-void print_square(int size);
+/* Put function prototypes here if needed */
+void fizz_buzz(void); /* Optional, only if you're putting FizzBuzz in a function */
 
 #endif /* MAIN_H */
